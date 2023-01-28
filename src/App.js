@@ -98,7 +98,7 @@ class MyApp extends React.Component {
         'Content-Type': 'application/json'
       },
       method: 'POST',
-      // mode: 'no-cors'
+      mode: 'no-cors'
     });
     var answer = await response.json();
     console.log(answer);
